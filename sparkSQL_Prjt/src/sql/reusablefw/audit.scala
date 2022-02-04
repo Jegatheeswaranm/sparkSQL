@@ -1,4 +1,4 @@
-package org.inceptez.spark.sql.reusablefw
+package jegathees.spark.sql.reusablefw
 
 class audit extends java.io.Serializable{
   def reconcile(sourcedf1:org.apache.spark.sql.DataFrame,targerdf2:org.apache.spark.sql.DataFrame):Short=
